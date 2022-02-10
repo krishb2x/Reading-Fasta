@@ -1,0 +1,6 @@
+f = open("seq.fasta") 
+entry = get_fasta(f) 
+while entry:
+#do what you have to do
+entry = get_fasta(f)
+f.close()
